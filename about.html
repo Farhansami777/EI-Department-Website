@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Electronics and Instrumentation Department</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!---header-->
+ <section class="sub-header">
+    ,<nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+           <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="Teachers/teachers.html">TEACHERS</a></li>
+            <li><a href="blog.html">ACHIVEMENTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+           </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About The Department</h1>
+ </section>
+ <!--about us content-->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>From  The Desk of Dr. C.H. RenuMadhavi., HoD</h1>
+            <p>Electronics and Instrumentation Engineering is an extremely multitalented career choice. Industries are becoming increasingly automated to improve productivity, conserve energy, and reduce pollution. Hence, in this highly regarded E&IE program, the students are trained to plan, design, install, operate and maintain complex electronic instrumentation systems and at the same time ensure the best quality. The admission to this program is through Common entrance Test (CET). The UG and PG programs are outcome based with fulfilling industry standards. The faculty members are focused on the Design, Fabrication and Implementation in different areas of Instrumentation, namely Automation Systems, Robotics, Virtual Instrumentation, Biomedical Signal Processing, Aircraft Instrumentation, etc. For UG program the Department has 02 Professor, 05 Associate Professors (including a physician to add experimental learning), and 07 Assistant Professor.<br><br>
+
+                The E&IE curriculum encompasses cutting edge industry relevant technologies like Signal & Image Processing, Microprocessors and Microcontrollers, VLSI, Computer communication Networks, Process Instrumentation, Control systems, Bio-Medical Instrumentation, Virtual Instrumentation, Product Design Technology, etc., the contents of which are updated in consonance with the changing industrial needs.<br><br>
+                
+                The department started in the year 1981, it offers consultancy services and executes Research projects related to Biomedical Instrumentation, Process Control and Instrumentation, Signal Processing, Bioinformatics, etc. from DRDO, NRB, DST. The department has  MOU's  with reknowned companies like National Instruments (NI), Bosch-Rexroth, Bigsolv and LI2 innovations.</p>
+            <a href="https://www.rvce.edu.in//it-course-ug"  class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/EIE_HOD_CHR.jpg">
+        </div>
+    </div>
+</section>
+
+<!---footer--->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>R.V. College of Engineering (RVCE) established in 1963 is one of the earliest self-financing engineering colleges in the country. The institution is run by Rashtreeya Sikshana Samithi Trust (RSST) a not for profit trust. The trust runs over 25 institutions and RVCE is the flagship institute under the trust. RVCE is today recognized as one of India’s leading technical institution.</p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made By Farhan</p>
+</section>
+ <!---Javascript for toggle Menu-->
+ <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+ </script> 
+</body>
+</html>
